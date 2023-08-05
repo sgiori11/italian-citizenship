@@ -1,5 +1,6 @@
 import styles from '../../styles/HeroSection.module.css';
 import Image from 'next/image';
+import tuscany from '/public/toscanac.jpg';
 
 export default function HeroSection() {
     return (
