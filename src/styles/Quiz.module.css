@@ -1,0 +1,47 @@
+.quizCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6em 2em;
+    min-height: 800px;
+}
+
+.quizCont h2 {
+    font-size: 45px;
+    text-align: center;
+    max-width: 700px;
+}
+
+.quizCont p {
+    text-align: center;
+    margin-bottom: 1.5em;
+    max-width: 700px;
+}
+
+.primaryCTA {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    text-align: inherit;
+    text-decoration: none;
+    vertical-align: baseline;
+    background-color: var(--medium);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid var(--medium);
+    padding: 1.1rem 4rem;
+    color: white;
+    transition: 0.2s ease-in-out;
+    border-radius: 4px;
+    position: relative;
+}

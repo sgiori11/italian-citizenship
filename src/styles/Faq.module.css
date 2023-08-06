@@ -1,0 +1,82 @@
+.container {
+    background-color: var(--light);
+    padding: 3em;
+    min-height: 700px;
+}
+
+.container h2 {
+    font-size: 60px;
+    margin-bottom: 1em;
+    text-align: center
+}
+
+.FAQSection {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.faqsCont {
+    max-width: 850px;
+    min-width: 850px;
+}
+
+.faqsCont .arrow {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--darkest);
+}
+
+.faqsCont .faq {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1.5em 1em;
+    margin-bottom: 1.5em;
+    transition: background-color 0.3s;
+}
+
+p.hidden {
+    max-width: 95%;
+}
+
+div.faq {
+    margin-bottom: 3em;
+}
+
+.arrow .svgArrow {
+    width: 30px;
+    height: 30px;
+    transform: rotate(0deg);
+    transition: 0.2s ease;
+}
+
+.faq input[type="checkbox"] {
+    display: none;
+}
+
+/* Content is hidden by default */
+.faq .hidden {
+    display: none;
+}
+
+/* Content is shown when the checkbox is checked */
+.faq input[type="checkbox"]:checked + label .hidden {
+    display: block;
+    margin-top: 2em;
+}
+
+
+/* Arrow default state */
+.faq input[type="checkbox"] + label .svgArrow {
+    transform: rotate(0deg);
+    transition: 0.s ease;
+}
+
+/* Arrow rotated when input is checked */
+.faq input[type="checkbox"]:checked + label .svgArrow {
+    transform: rotate(90deg);
+}

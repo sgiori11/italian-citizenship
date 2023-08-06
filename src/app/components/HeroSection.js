@@ -1,18 +1,23 @@
 import styles from '../../styles/HeroSection.module.css';
+import Link from 'next/link';
 import Image from 'next/image';
-import tuscany from '/public/toscanac.jpg';
+import heroImg from '/public/hero.png';
+
 
 export default function HeroSection() {
     return (
     <section className={styles.container}>
-        <h1>Are You Eligible For Italian Citizenship By Descent?</h1>
-         <Image 
-                priority={true}
-           
-                src=""
-                alt="A hand-drawn fern"
-                width={350}
-            />
+        <div className={styles.heroCont}>
+          <h1 className={styles.h1}>Are You Eligible For Italian Citizenship By Descent?</h1>
+          <Link href="#" className={styles.primaryCTA}>Take the quiz today</Link>
+        </div>
+          <Image 
+            priority
+            width={550}
+            alt='Circular images of Portofino, Toscana, and Venezia.'
+            src={heroImg}
+            className={styles.heroImg}
+        />
     </section>
   );
 }
