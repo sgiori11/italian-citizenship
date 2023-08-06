@@ -1,10 +1,7 @@
-'use client'
-
 import styles from '../../styles/Faq.module.css';
-import React, { useState } from 'react';
+
 
 export default function Faq() {
-    const [openedQuestionId, setOpenedQuestionId] = useState(null);
 
     const questionsData = [
         {
@@ -12,7 +9,7 @@ export default function Faq() {
             label: "How much does it cost to get Italian citizenship by descent?",
             content: (
                 <>
-                    The cost of getting Italian citizenship by descent can vary greatly depending on your ancestral line and how close you live to your Italian consulate and courthouses. An applicant with an “easy” line (one that does not require a lawyer) might expect to spend anywhere from $200 to $2000 USD in total for documents, translations, apostilles, and transportation costs.<br /><br />
+                    The cost of getting Italian citizenship by descent can vary greatly depending on your ancestral line and how close you live to your Italian consulate and courthouses. An applicant with an “easy” line (one that does not require a lawyer) might expect to spend anywhere from $200 to $2000 USD in total for documents, translations, apostilles, fees, and transportation costs.<br /><br />
                     If your case requires an Italian lawyer, the total cost might be higher.
                 </>
             )
@@ -22,7 +19,7 @@ export default function Faq() {
             label: "How long does it take to get Italian citizenship by descent?",
             content: (
                 <>
-                     The time it takes to get Italian citizenship by descent depends on your ancestral line and the location of your nearest Italian consulate. An applicant with a straightforward line, who lives in a district served by a “fast” consulate, might become recognized as a citizen in 1 to 3 years. <br /><br />The process can be expedited by applying directly in Italy.
+                     The time it takes to get Italian citizenship by descent depends on your ancestral line and the location of your nearest Italian consulate. An applicant with a straightforward line, who lives in a district served by a “fast” consulate, might be recognized as a citizen in 1 to 3 years. <br /><br />The process can be expedited by applying directly in Italy.
                 </>
             )
         },      
@@ -32,6 +29,15 @@ export default function Faq() {
             content: (
                 <>
                     Yes! Applying for Italian citizenship by descent directly in Italy is the fastest way to be recognized. For more details about this process, visit <a href="https://dualusitalian.com/applying-in-italy/" target="_blank" rel="noopener noreferrer">dualusitalian.com/applying-in-italy/</a>.
+                </>
+            )
+        },
+        {
+            id: "question4",
+            label: "Are there any cons to getting dual Italian citizenship?",
+            content: (
+                <>
+                    No, not for the vast majority of jure sanguinis applicants. Many countries are accepting of dual citizenship, and you will not be required to file taxes in Italy unless you move there and establish residency.<br /><br /> However, if you work in a sector that requires a high level of security clearance, you should verify that it's okay to pursue dual citizenship. 
                 </>
             )
         },

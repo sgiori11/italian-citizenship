@@ -3,6 +3,7 @@ import styles from '../styles/HeroSection.module.css';
 import HeroSection from './components/HeroSection';
 import Quiz from './components/Quiz';
 import FAQ from './components/Faq';
+import About from './components/About';
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       </section>
       <Quiz />
       <FAQ />
+      <About />
     </main>
   )
 }

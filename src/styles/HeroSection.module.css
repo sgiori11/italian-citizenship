@@ -76,3 +76,7 @@
 .postHero p, .postHero h2 {
     max-width: 650px;
 }
+
+.postHero h2 {
+  margin-top: 0;
+}

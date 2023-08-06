@@ -1,7 +1,7 @@
 .container {
     background-color: var(--light);
     padding: 3em;
-    min-height: 700px;
+    min-height: 800px;
 }
 
 .container h2 {
