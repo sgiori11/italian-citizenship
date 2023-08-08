@@ -6,3 +6,24 @@
     font-size: 50px;
     text-align: center;
 }
+
+.mainCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5em;
+}
+
+.mainCont p {
+    max-width: 600px;
+}
+
+
+.imgCont {
+    display: grid;
+}
+
+.myVlog {
+    position: relative;
+    top: -100px;
+}
