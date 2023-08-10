@@ -18,6 +18,11 @@
     max-width: 600px;
 }
 
+.mainCont span {
+    color: var(--medium);
+    font-weight: 500;
+}
+
 
 .imgCont {
     display: grid;

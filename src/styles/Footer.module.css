@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+  
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 3rem auto 3rem auto;
+    margin: 2em;
+    padding: 2em 0;
+    border-top: 1px solid #E4E7EB;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.Twitterlink {
+    color: var(--medium);
+    font-weight: 500;
+}
+
+.Twitterlink:hover {
+    text-decoration: underline;
+}

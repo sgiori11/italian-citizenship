@@ -9,7 +9,7 @@ export default function Faq() {
             label: "How much does it cost to get Italian citizenship by descent?",
             content: (
                 <>
-                    The cost of getting Italian citizenship by descent can vary greatly depending on your ancestral line and how close you live to your Italian consulate and courthouses. An applicant with an “easy” line (one that does not require a lawyer) might expect to spend anywhere from $200 to $2000 USD in total for documents, translations, apostilles, fees, and transportation costs.<br /><br />
+                    The cost of getting Italian citizenship by descent can vary greatly depending on your ancestral line, place of residence, and whether you apply in Italy or another country. An applicant with an “easy” line (one that does not require a lawyer for a 1948 case) might expect to spend anywhere from $200 to $2000 USD in total for documents, translations, apostilles, fees, and various transportation costs.<br /><br />
                     If your case requires an Italian lawyer, the total cost might be higher.
                 </>
             )
@@ -19,7 +19,7 @@ export default function Faq() {
             label: "How long does it take to get Italian citizenship by descent?",
             content: (
                 <>
-                     The time it takes to get Italian citizenship by descent depends on your ancestral line and the location of your nearest Italian consulate. An applicant with a straightforward line, who lives in a district served by a “fast” consulate, might be recognized as a citizen in 1 to 3 years. <br /><br />The process can be expedited by applying directly in Italy.
+                     If you're applying outside of Italy, the time it takes to get Italian citizenship by descent depends on your ancestral line and the location of your nearest Italian consulate. An applicant with a straightforward line, who lives in a district served by a “fast” consulate, might be recognized as a citizen in 1 to 3 years. <br /><br />The process can be expedited by applying directly in Italy.
                 </>
             )
         },      

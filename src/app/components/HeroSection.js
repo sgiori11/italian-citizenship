@@ -1,7 +1,7 @@
 import styles from '../../styles/HeroSection.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import heroImg from '/public/hero.png';
+import heroImg from '/public/toscana.png';
 
 
 export default function HeroSection() {
@@ -13,7 +13,7 @@ export default function HeroSection() {
         </div>
           <Image 
             priority
-            width={550}
+            width={500}
             alt='Circular images of Portofino, Toscana, and Venezia.'
             src={heroImg}
             className={styles.heroImg}

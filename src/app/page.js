@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import Quiz from './components/Quiz';
 import FAQ from './components/Faq';
 import About from './components/About';
+import Footer from './components/Footer';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Quiz />
       <FAQ />
       <About />
+      <Footer />
     </main>
   )
 }
