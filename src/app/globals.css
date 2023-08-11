@@ -31,13 +31,13 @@ h1, h2 {
 }
 
 h2 {
-   font-size: 30px;
+   font-size: 40px;
    margin: 0.5em 0;
 }
 
 p {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.7;
   color: var(--darkest);
 }
   
@@ -50,4 +50,19 @@ p {
 a {
   color: inherit;
  
+}
+
+@media only screen and (max-width: 670px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
 }

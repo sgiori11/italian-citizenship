@@ -12,7 +12,6 @@
 
 .heroCont {
    max-width: 600px;
-   background-color: #F3F6FA;
   }
   
   .h1, .primaryCTA {
@@ -56,7 +55,7 @@
     transition: 0.2s ease-in-out;
     border-radius: 4px;
     position: relative;
-}
+} 
 
 .primaryCTA::after {
     display: flex;
@@ -87,4 +86,30 @@
 .postHero h2 {
   margin-top: 0;
   margin-bottom: 1em;
+}
+
+
+@media only screen and (max-width: 1058px) {
+  .heroCont {
+    max-width: 600px;
+    background-color: transparent;
+   }
+
+  .heroImg {
+      opacity: 0.4;
+  }
+
+  .primaryCTA::after {
+    color: var(--medium);
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .heroImg {
+    right: -250px;
+    
+  }
+
 }
