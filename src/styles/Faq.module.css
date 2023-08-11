@@ -14,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center !important;
+  
 }
 
 .faqsCont {
@@ -41,7 +42,7 @@
 
 p.hidden {
     max-width: 95%;
-}
+} 
 
 div.faq {
     margin-bottom: 3em;
@@ -80,3 +81,14 @@ div.faq {
 .faq input[type="checkbox"]:checked + label .svgArrow {
     transform: rotate(90deg);
 }
+
+@media only screen and (max-width: 870px) {
+    .faqsCont {
+        min-width: 0px;
+    }
+
+    .faqsCont .arrow {
+        font-size: 18px;
+    }
+    
+  }

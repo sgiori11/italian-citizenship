@@ -28,16 +28,25 @@ export default function Faq() {
             label: "Can I apply for Italian citizenship in Italy directly?",
             content: (
                 <>
-                    Yes! Applying for Italian citizenship by descent directly in Italy is the fastest way to be recognized. For more details about this process, visit <a href="https://dualusitalian.com/applying-in-italy/" target="_blank" rel="noopener noreferrer">dualusitalian.com/applying-in-italy/</a>.
+                    Yes! Applying for Italian citizenship by descent directly in Italy is the fastest way to be recognized and can take just a few months. For more details about this process, visit <a href="https://dualusitalian.com/applying-in-italy/" target="_blank" rel="noopener noreferrer">dualusitalian.com/applying-in-italy/</a>.
                 </>
             )
         },
         {
             id: "question4",
-            label: "Are there any cons to getting dual Italian citizenship?",
+            label: "Are there any disadvantages to getting dual Italian citizenship?",
             content: (
                 <>
                     No, not for the vast majority of jure sanguinis applicants. Many countries are accepting of dual citizenship, and you will not be required to file taxes in Italy unless you move there and establish residency.<br /><br /> However, if you work in a sector that requires a high level of security clearance, you should verify that it's okay to pursue dual citizenship. 
+                </>
+            )
+        },
+        {
+            id: "question5",
+            label: "Can I apply for Italian citizenship through my great-grandparents?",
+            content: (
+                <>
+                    Yes! There is no generational limit for claiming Italian citizenship by descent as long as your ancestral line meets the requirements.  
                 </>
             )
         },

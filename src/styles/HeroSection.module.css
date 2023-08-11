@@ -77,8 +77,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: var(--light);
-    padding: 3em;
-    height: 400px;
+    padding: 4em 3em;
 }
 
 .postHero p, .postHero h2 {
@@ -87,4 +86,5 @@
 
 .postHero h2 {
   margin-top: 0;
+  margin-bottom: 1em;
 }

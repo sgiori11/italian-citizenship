@@ -32,3 +32,15 @@
     position: relative;
     top: -100px;
 }
+
+@media only screen and (max-width: 850px) {
+    .mainCont {
+      flex-direction: column;
+      column-gap: 1em;
+    }
+
+    .imgCont {
+        max-height: 600px;
+    }
+
+  }

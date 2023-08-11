@@ -1,7 +1,7 @@
 import styles from '../../styles/About.module.css';
 import Image from 'next/image'
 import me from '/public/me.png';
-import vlog from '/public/vlog.png';
+import vlog from '/public/vlog.png'; 
 
 
 export default function About() {
