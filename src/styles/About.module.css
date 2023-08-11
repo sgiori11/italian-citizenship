@@ -43,3 +43,15 @@
     }
 
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .myImg, .myVlog {
+        width: 300px;
+        height: 100%;
+    }
+
+    .myVlog {
+        top: -60px;
+    }
+  }
