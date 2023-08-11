@@ -19,7 +19,7 @@ export default function Faq() {
             label: "How long does it take to get Italian citizenship by descent?",
             content: (
                 <>
-                     If you're applying outside of Italy, the time it takes to get Italian citizenship by descent depends on your ancestral line and the location of your nearest Italian consulate. An applicant with a straightforward line, who lives in a district served by a “fast” consulate, might be recognized as a citizen in 1 to 3 years. <br /><br />The process can be expedited by applying directly in Italy.
+                     If you&apos;re applying outside of Italy, the time it takes to get Italian citizenship by descent depends on your ancestral line and the location of your nearest Italian consulate. An applicant with a straightforward line, who lives in a district served by a “fast” consulate, might be recognized as a citizen in 1 to 3 years. <br /><br />The process can be expedited by applying directly in Italy.
                 </>
             )
         },      
@@ -37,7 +37,7 @@ export default function Faq() {
             label: "Are there any disadvantages to getting dual Italian citizenship?",
             content: (
                 <>
-                    No, not for the vast majority of jure sanguinis applicants. Many countries are accepting of dual citizenship, and you will not be required to file taxes in Italy unless you move there and establish residency.<br /><br /> However, if you work in a sector that requires a high level of security clearance, you should verify that it's okay to pursue dual citizenship. 
+                    No, not for the vast majority of jure sanguinis applicants. Many countries are accepting of dual citizenship, and you will not be required to file taxes in Italy unless you move there and establish residency.<br /><br /> However, if you work in a sector that requires a high level of security clearance, you should verify that it&apos;s okay to pursue dual citizenship. 
                 </>
             )
         },
