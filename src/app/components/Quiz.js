@@ -1,5 +1,5 @@
 import styles from '../../styles/Quiz.module.css';
-import Image from 'next/Image';
+import Image from 'next/image';
 import star from '/public/star.svg'
 
 
