@@ -37,7 +37,6 @@
     color: inherit;
     cursor: pointer;
     font-family: inherit;
-    font-size: 100%;
     line-height: normal;
     margin: 0;
     outline: none;
@@ -96,6 +95,7 @@
    }
 
   .heroImg {
+    right: -150px;
       opacity: 0.4;
   }
 
@@ -108,8 +108,12 @@
 @media only screen and (max-width: 600px) {
 
   .heroImg {
-    right: -250px;
-    
+   
   }
+  .primaryCTA {
+    padding: 1rem 2rem;
+    font-size: 1.1rem
+  }
+
 
 }

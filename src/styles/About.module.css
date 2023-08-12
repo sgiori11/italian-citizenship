@@ -46,6 +46,10 @@
 
 
   @media only screen and (max-width: 600px) {
+    .mainCont p {
+        text-align: justify;
+    }
+
     .myImg, .myVlog {
         width: 300px;
         height: 100%;
