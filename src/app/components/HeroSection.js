@@ -14,7 +14,7 @@ export default function HeroSection() {
           <Image 
             priority
             width={500}
-            alt='Circular images of Portofino, Toscana, and Venezia.'
+            alt='Collage of the Florence duomo cathedral and a venice canal'
             src={heroImg}
             className={styles.heroImg}
         />
