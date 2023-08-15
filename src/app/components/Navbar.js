@@ -5,10 +5,12 @@ import styles from '../../styles/Nav.module.css';
 
 export default function Nav() {
     return(
-    <nav className={styles.navCont}>
+    <nav className={styles.nav}>
+      <div className={styles.navCont}>
         <a href="#about">About</a>
         <a href="#faq">FAQ</a>
         <a href="#quiz">Take the quiz</a>
+      </div>
     </nav>
 
     )

@@ -1,12 +1,20 @@
-.navCont {
+.nav {
     position: relative;
+}
+
+.navCont {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
     z-index: 100;
-    min-height: 70px;
+    min-height: 90px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    padding: 2em 0;
     background-color: #F3F6FA;
-    padding-bottom: 1em;
+
 }
 
 .navCont a {
