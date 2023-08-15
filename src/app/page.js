@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from '../styles/HeroSection.module.css';
 import HeroSection from './components/HeroSection';
 import Quiz from './components/Quiz';
+import Nav from './components/Navbar';
 import FAQ from './components/Faq';
 import About from './components/About';
 import Footer from './components/Footer';
@@ -10,6 +11,7 @@ import Footer from './components/Footer';
 export default function Home() {
   return (
     <main>
+      <Nav />
       <HeroSection />
       <section className={styles.postHero}>
         <h2>What Are The Benefits Of Italian Citizenship?</h2>

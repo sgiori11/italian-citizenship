@@ -1,0 +1,22 @@
+.navCont {
+    position: relative;
+    z-index: 100;
+    min-height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #F3F6FA;
+    padding-bottom: 1em;
+}
+
+.navCont a {
+    font-weight: 600;
+    transition: all 0.2s ease;
+    margin-right: 2em;
+    text-decoration: none;
+}
+
+.navCont a:hover {
+    color: var(--medium);
+    transition: color 0.2s ease;
+}

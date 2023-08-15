@@ -7,6 +7,8 @@
   --darkest: #14213D;
   --medium: #4B00C6;
   --light: #DEE3F2;
+
+  scroll-behavior: smooth !important;
 }
 
 html,
@@ -15,11 +17,12 @@ body {
 }
 
 html {
-  scroll-snap-type: y mandatory !important; 
+  scroll-behavior: smooth !important;
 }  
 
 body {
   background-color: #F3F6FA;
+  scroll-behavior: smooth !important;
 }
 
 h1, h2 {

@@ -5,7 +5,7 @@ import star from '/public/star.svg'
 
 export default function Quiz() {
     return(
-    <section className={styles.quizCont}>
+    <section className={styles.quizCont} id={"quiz"}>
         <Image 
             width={100}
             alt='A blue star'

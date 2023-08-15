@@ -6,7 +6,7 @@ import vlog from '/public/vlog.png';
 
 export default function About() {
     return(
-        <section className={styles.aboutCont}>
+        <section className={styles.aboutCont} id={"about"}>
             <h2>About</h2>
             <div className={styles.mainCont}>
                 <div className={styles.imgCont}>

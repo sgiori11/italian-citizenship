@@ -54,7 +54,7 @@ export default function Faq() {
     
       
         return (
-                <section className={styles.container}>
+                <section className={styles.container} id={"faq"}>
                     <h2>FAQs</h2>
                     <section className={styles.FAQSection}>
                         <div className={styles.faqsCont}>
