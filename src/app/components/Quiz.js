@@ -64,6 +64,7 @@ function Quiz() {
         <div className={styles.welcomeScreen}>
           <p>Curious if you can get Italian citizenship through your grandmother, great-grandparents, or another ancestor? Take this quiz to find out!</p>
           <button className={styles.primaryCTA} onClick={() => handleAnswer(1, true)}>Take the quiz</button>
+          <p> Note: The information provided on this website does not, and is not intended to, constitute legal advice.</p>
         </div>
       );
     case 1:

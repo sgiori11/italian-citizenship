@@ -61,7 +61,6 @@ button {
 button:hover {
   transform: translateY(-5px);
   transition: transform 0.3s ease;
-
 }
 
 
@@ -88,6 +87,9 @@ button:hover {
       font-size: 30px;
     }
 
+    button:hover {
+      transform: translateY(0);
+    }
   }
 
 }
