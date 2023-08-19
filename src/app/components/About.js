@@ -24,7 +24,7 @@ export default function About() {
                 /></div>
                 <p><span>Hi! My name is Stephanie, and I successfully applied for Italian citizenship by descent in 2019.</span> I currently work in Milan as a web developer, and I built this site to help other people with Italian ancestry determine if they are eligible.
 
-<br /><br />If you’re interested in English-speaking jobs in Italy, check out my other website, <a href="https://startupjobsitalia.com/" target="_blank" rel="noreferrer">startupjobsitalia.com!</a>
+<br /><br />If you&apos;re interested in moving to Italy, check out my new blog, <a href="https://www.layoverinitaly.com/" target="_blank" rel="noreferrer">layoverinitaly.com!</a>
 
 
 

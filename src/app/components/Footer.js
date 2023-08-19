@@ -9,7 +9,7 @@ export default function Footer() {
             <div className={styles.container}>
                 <div className={styles.content}>
                   <p>Built in Milan by&nbsp; 
-                     <Link href="https://twitter.com/sgiori8" target="_blank" rel="noopener noreferrer" className={styles.Twitterlink}>Steph</Link>
+                     <Link href="https://www.layoverinitaly.com/" target="_blank" rel="noopener noreferrer" className={styles.Twitterlink}>Steph</Link>
                   </p>
                 </div>
              </div>

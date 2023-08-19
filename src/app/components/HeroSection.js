@@ -9,7 +9,7 @@ export default function HeroSection() {
     <section className={styles.container}>
         <div className={styles.heroCont}>
           <h1 className={styles.h1}>Are You Eligible For Italian Citizenship By Descent?</h1>
-          <Link href="#" className={styles.primaryCTA}>Take the quiz today</Link>
+          <Link href="#quiz" className={styles.primaryCTA}>Take the quiz today</Link>
         </div>
           <Image 
             priority

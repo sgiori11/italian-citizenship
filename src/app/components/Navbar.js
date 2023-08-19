@@ -9,7 +9,7 @@ export default function Nav() {
       <div className={styles.navCont}>
         <a href="#about">About</a>
         <a href="#faq">FAQ</a>
-        <a href="#quiz">Take the quiz</a>
+        <a href="#quiz">Quiz</a>
       </div>
     </nav>
 

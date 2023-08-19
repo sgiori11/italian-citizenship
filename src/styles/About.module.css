@@ -47,6 +47,10 @@
 
 
   @media only screen and (max-width: 600px) {
+    .aboutCont {
+        padding: 1.25em;
+    }
+
     .mainCont p {
         text-align: justify;
     }
