@@ -19,7 +19,7 @@ export const metadata = {
   title: 'Italian Jure Sanguinis Quiz',
   description: 'Take this interactive quiz to discover if you qualify for Italian citizenship by descent via jure sanguinis.',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.png',
   },
 }
 
