@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 
 export default function QuizContainer() {
     return (
-        <section className={styles.quizCont} id={"quiz"}>
+        <section className={styles.quizCont} id={'quiz'}>
             <Image 
                 width={100}
                 alt='A blue star'
