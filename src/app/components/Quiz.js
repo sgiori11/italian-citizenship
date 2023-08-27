@@ -73,11 +73,7 @@ function Quiz() {
           <p>Was at least one of your direct ascendants (parents, grandparents, great-grandparents, etc.) born in Italy?</p>
           <span></span>
           <button onClick={() => handleAnswer(2, true)}>Yes</button>
-          <button onClick={() => setResult(
-            <>
-            You don&apos;t appear to qualify for Italian citizenship by descent.
-            </>
-            )}>No</button>
+          <button onClick={() => handleAnswer(12, true)}>No</button>
         </div>
       );
     case 2:
@@ -201,6 +197,24 @@ function Quiz() {
             }}>No</button>
           </div>
         );
+        case 12:
+      return (
+        <div className={styles.quiz}>
+          <p>Did one of your direct female ascendants marry an Italian citizen, or someone eligible for Italian citizenship by descent, before April 27th, 1983?</p>
+          <span>Prior to April 27th, 1983, foreign women who married Italian men were automatically granted Italian citizenship. This citizenship persisted even after the Italian man naturalized in his wife's country or another country.</span>
+          <button onClick={() => {
+              setResult('You might be able to claim Italian citizenship by descent through this female ancestor. Read more here:')
+              setResources([
+                { label: 'A comprehensive guide to 1983 marriage cases in Italy', link: 'https://dualusitalian.com/welcome/units/laws-1983-automatic-citizenship-for-foreign-women-by-marriage/' },
+              ]);
+            }}>Yes</button>
+          <button onClick={() => setResult(
+             <>
+            You don't appear to qualify for Italian citizenship by descent.
+            </>
+            )}>No</button>
+        </div>
+      );
     default:
       return null;
   }
