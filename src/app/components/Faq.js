@@ -50,6 +50,15 @@ export default function Faq() {
                 </>
             )
         },
+        {
+            id: "question6",
+            label: "How expensive is a 1948 case with an Italian lawyer?",
+            content: (
+                <>
+                    Depending on your lineage, a 1948 case can cost between $3.5k-$8k. Other eligible family members in your line can join the case in order to split the costs. 
+                </>
+            )
+        },
     ];
     
       

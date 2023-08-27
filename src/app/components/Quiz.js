@@ -109,7 +109,7 @@ function Quiz() {
           <button onClick={() => {
             setResult(
               <>
-              In order to claim Italian citizenship through this female ancestor, you&apos;ll have to file a judicial case with the Civil Courts in Rome.
+              In order to claim Italian citizenship through this female ancestor, you&apos;ll have to file a judicial case in the regional county where your Italian ancestor was born.
               </>
               )
             setResources([
