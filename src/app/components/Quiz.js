@@ -201,7 +201,7 @@ function Quiz() {
       return (
         <div className={styles.quiz}>
           <p>Did one of your direct female ascendants marry an Italian citizen, or someone eligible for Italian citizenship by descent, before April 27th, 1983?</p>
-          <span>Prior to April 27th, 1983, foreign women who married Italian men were automatically granted Italian citizenship. This citizenship persisted even after the Italian man naturalized in his wife's country or another country.</span>
+          <span>Prior to April 27th, 1983, foreign women who married Italian men were automatically granted Italian citizenship. This citizenship persisted even after the Italian man naturalized in his wife&apos;s country or another country.</span>
           <button onClick={() => {
               setResult('You might be able to claim Italian citizenship by descent through this female ancestor. Read more here:')
               setResources([
@@ -210,7 +210,7 @@ function Quiz() {
             }}>Yes</button>
           <button onClick={() => setResult(
              <>
-            You don't appear to qualify for Italian citizenship by descent.
+            You don&apos;t appear to qualify for Italian citizenship by descent.
             </>
             )}>No</button>
         </div>
